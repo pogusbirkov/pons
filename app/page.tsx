@@ -7,7 +7,7 @@ export default function Home() {
   const tabs = Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
     title: `Вкладка ${i + 1}`,
-    content: `понос жоский 3000`
+    content: `Здесь будет ваш текст для раздела №${i + 1}. Просто замените этот текст позже.`
   }));
 
   const [activeTab, setActiveTab] = useState(tabs[0]);
